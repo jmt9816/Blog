@@ -13,6 +13,39 @@ html, body {
     padding: 0;
 }
 
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    background-color: #c9c9c9;
+    color: #333;
+}
+
+/* Style the Title */
+header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Style the Nav bar */
+nav {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
 /* Set a background color and font styles */
 body {
     background-color: #f2f2f2;
@@ -24,39 +57,17 @@ body {
     min-height: 100%;
 }
 
-/* Set a container for the blog content */
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Style the header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #c9c9c9;
-    color: #fff;
-}
-
-/* Style the Title */
-header h1 {
-    text-align: center;
-}
-
 /* Style the main content area */
 main {
+    display: flex;
     background-color: #fff;
     padding: 20px;
     flex: 1;
 }
 
-/* Style the sidebar */
-aside {
-    background-color: #f2f2f2;
-    padding: 20px;
+/* Style the blog post article*/
+article {
+    flex: 0 0 40%;
 }
 
 /* Style the footer */
@@ -65,14 +76,4 @@ footer {
     color: #333;
     padding: 10px;
     text-align: center;
-}
-
-/* Style the Nav bar */
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
 }
