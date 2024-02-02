@@ -1,0 +1,78 @@
+/* FILEPATH: /c:/Users/jorda/OneDrive/Desktop/Website Test/style.css */
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* make the HTML and Body take up full screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+/* Set the container to flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+}
+
+/* Set a container for the blog content */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c9c9c9;
+    color: #fff;
+}
+
+/* Style the Title */
+header h1 {
+    text-align: center;
+}
+
+/* Style the main content area */
+main {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Style the sidebar */
+aside {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the Nav bar */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
