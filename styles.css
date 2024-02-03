@@ -79,12 +79,22 @@ footer {
 }
 
 /* This is for the projects page */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .project {
-    margin: 20px;
+    flex: 1 0 200px; /* This means each article will grow and shrink as needed, but won't be smaller than 200px */
+    margin: 10px;
+    box-sizing: border-box; /* This includes padding and border in the element's total width and height */
     padding: 20px;
     background-color: #cdf2fd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    align-self: start;
+    min-height: 300px;
 }
 
 .projectLink {
